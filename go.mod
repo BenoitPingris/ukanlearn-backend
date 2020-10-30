@@ -3,8 +3,9 @@ module ukanlearn
 go 1.15
 
 require (
-	github.com/BenoitPingris/validation-request v0.0.0-20201028202458-1e6194fc4922
+	github.com/BenoitPingris/validation-request v0.0.0-20201028220211-18508b1de664
 	github.com/go-chi/chi v4.1.2+incompatible
+	github.com/go-redis/redis/v8 v8.3.3 // indirect
 	github.com/stretchr/testify v1.6.1
 	golang.org/x/crypto v0.0.0-20201016220609-9e8e0b390897
 	golang.org/x/text v0.3.4 // indirect
